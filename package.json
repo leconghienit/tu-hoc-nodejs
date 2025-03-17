@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leconghienit/tu-hoc-nodejs/issues"
   },
-  "homepage": "https://github.com/leconghienit/tu-hoc-nodejs#readme"
+  "homepage": "https://github.com/leconghienit/tu-hoc-nodejs#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }
