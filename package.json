@@ -1,27 +1,28 @@
 {
-  "name": "tu-hoc-nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leconghienit/tu-hoc-nodejs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leconghienit/tu-hoc-nodejs/issues"
-  },
-  "homepage": "https://github.com/leconghienit/tu-hoc-nodejs#readme",
-  "dependencies": {
-    "express": "5.0.1"
-  },
-  "devDependencies": {
-    "@types/express": "5.0.0",
-    "@types/node": "22.10.7",
-    "typescript": "5.7.3"
-  }
+    "name": "tu-hoc-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc && node dist/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leconghienit/tu-hoc-nodejs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leconghienit/tu-hoc-nodejs/issues"
+    },
+    "homepage": "https://github.com/leconghienit/tu-hoc-nodejs#readme",
+    "dependencies": {
+        "express": "5.0.1"
+    },
+    "devDependencies": {
+        "@types/express": "5.0.0",
+        "@types/node": "22.10.7",
+        "typescript": "5.7.3"
+    }
 }
