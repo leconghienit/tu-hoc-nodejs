@@ -4,13 +4,14 @@ import { log } from "node:console";
 const app = express();
 const port = process.env.PORT;
 
+app.set("view engine", "ejs");
+app.set("views", __dirname + "/views");
+
 app.get("/", (req, res) => {
-    res.send("le cong hien tro lai roi day nodemon");
+    res.render("home.ejs");
 });
 
-app.get("/hienle", (req, res) => {
-    res.send("le cong hien xin chao ");
-});
+app.get("/hienle", (req, res) => {});
 
 app.listen(port, () => {
     console.log(`my app is running on port: ${port}`);
